@@ -323,7 +323,14 @@
                 
                 <h1 id="git-github">Git &amp;&amp; Github</h1>
 <h2 id="add-acount">Add acount</h2>
-<div class="highlight"><pre><span></span><code>git config --global user.name 
+<div class="highlight"><pre><span></span><code><span class="c1"># Enable only for current repo</span>
+git config credential.helper store
+git config user.name 
+git config user.email 
+
+<span class="c1"># Enable Global</span>
+git config --global credential.helper store
+git config --global user.name 
 git config --global user.email 
 </code></pre></div>
                 
