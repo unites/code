@@ -333,6 +333,15 @@ git config --global credential.helper store
 git config --global user.name 
 git config --global user.email 
 </code></pre></div>
+<div class="highlight"><pre><span></span><code>git add .
+git commit -m <span class="s2">&quot;update notes&quot;</span>
+git push origin
+git subtree push --prefix site origin gh-pages
+
+<span class="c1"># Or all together</span>
+
+git add . <span class="o">&amp;&amp;</span> git commit -m <span class="s2">&quot;notes&quot;</span> <span class="o">&amp;&amp;</span> git push origin <span class="o">&amp;&amp;</span> git subtree push --prefix site origin gh-pages
+</code></pre></div>
                 
               
               
