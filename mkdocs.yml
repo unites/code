@@ -1,0 +1,16 @@
+site_name: Code Notes
+
+nav:
+    - Python:
+        - General: py/py-general.md 
+
+theme:
+    name: material
+    highlightjs: true
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.snippets
