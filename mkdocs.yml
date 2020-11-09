@@ -1,8 +1,10 @@
 site_name: Code Notes
 
 nav:
+    - Home: index.md
     - Python:
-        - General: py/py-general.md 
+        - General: py/py-general.md
+
 
 theme:
     name: material
