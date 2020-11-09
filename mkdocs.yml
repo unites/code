@@ -2,6 +2,8 @@ site_name: Code Notes
 
 nav:
     - Home: index.md
+    - General:
+      - Git: gen/git-notes.md
     - Python:
         - General: py/py-general.md
 
